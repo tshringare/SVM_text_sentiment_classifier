@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer as tVector
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv('cyberbullying_tweets.csv')                      # loading the data and the required pre processing
+data = pd.read_csv('cyberbullying_tweets.csv')                      # loading the data and the required pre-processing
 x = data['tweet_text']                                              # functions
 ps = PorterStemmer()
 lem = WordNetLemmatizer()
@@ -66,7 +66,7 @@ if __name__ == "__main__":                                  # this part contains
     y_pred = model.predict(X_test)
     print("Accuracy is:", accuracy_score(y_test, y_pred)*100)
     tweet = r"I hate you"                        # change this to try out different tweets
-    print(tweet, " Is classified as-",model.predict(pre_classification(tweet, vector))[0])
+    print(tweet, " Is classified as-", model.predict(pre_classification(tweet, vector))[0])
 
     with open('model.joblib', 'wb') as f:                   # saving the model so that it can be executed without
         m_v = [model, vector]                               # rebuilding in the cyberbullying_classifier file
