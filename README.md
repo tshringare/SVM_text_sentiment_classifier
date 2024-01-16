@@ -6,8 +6,8 @@ perform better in text classification problems. The repository contains the data
 a cyberbullying text classifier which classifies the given input according to the built model and the "best" model. </p>
 
 <h2>Dataset Used</h2>
-<p>The Dataset used is the Cyberbullying Classfication by Larxel, found on Kaggle: https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification/data</p>
-<p>Said Dataset is protected under Attribution 4.0 International (CC BY 4.0) license, details for which can be found here: https://creativecommons.org/licenses/by/4.0/</p>
+<p>The Dataset used is the Cyberbullying Classfication by Larxel, found on Kaggle:<br>https://www.kaggle.com/datasets/andrewmvd/cyberbullying-classification/data</p>
+<p>Said Dataset is protected under Attribution 4.0 International (CC BY 4.0) license, details for which can be found here:<br>https://creativecommons.org/licenses/by/4.0/</p>
 
 <h2>Libraries Used</h2>
 <ul><li>SKLearn</li>
