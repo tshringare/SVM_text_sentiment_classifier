@@ -38,6 +38,6 @@ in features resulting in a reduction of accuracy.</p>
 <p>If one wishes to use the models themselves, the .joblib files for the models are stored in the same directory and are also found on github. The generated model is simply named model.joblib while the "best" model is named
 best_model.joblib. These models can be loaded using joblib library and can be used for classification after fitting the text to be classified in the specific tfidf vector. One can see how to do this by referring to the cyberbullying_classifier.py</p>
 
-<p>One may also choose to use this model_builder to build models around other text classification datasets by replacing the .csv file in the model_builder.py, <b>as long as they follow the same format as the used dataset</b>, that is, the datset
+<p>One may also choose to use this model_builder to build models around other text classification datasets by replacing the .csv file in the model_builder.py, <b>as long as they follow the same format as the used dataset</b>, that is, the dataset
 should contain one column of text and another column of it's classification.</p>
 
